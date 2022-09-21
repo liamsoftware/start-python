@@ -30,3 +30,4 @@ cata.fire()
 cata.reload()
 print('\nPython does not have interfaces, so I used an abstract class to do this, but it is not perfect. \n'
       'Python used an ABC module to incorporate interface functionality, I should check that out.')
+print('\nPython has multiple inheritance, subclasses can have more than one base class.')
