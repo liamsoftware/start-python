@@ -18,3 +18,9 @@ print('now main thread is complete')
 # start multiple threads
 threads = [Thread(target=work) for _ in range(5)]
 [t.start() for t in threads]
+
+# Concurrency - code can execute at the same time, but is may not. It may share CPU cycles and be switched.
+# Parallelism - code executes at the same time.
+
+# Process - does not share memory. Takes all resources.
+# Thread - lightweight process. Shares memory with other threads. Runs within a process.
