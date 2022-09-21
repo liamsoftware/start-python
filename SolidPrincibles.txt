@@ -1,0 +1,7 @@
+
+
+Single responsibility - classes and methods should have a single job.
+Open for extension, closed for change - classes are closed for change, but can be subclasses and extended.
+Liskov substitution - objects of the same type (or subtype) can be changed without causing disruption to the program.
+Interface separation - interfaces should be small to make it easy for classes to implement only what they need.
+Dependency inversion (depend on abstractions) - depend on abstractions and interfaces as opposed to concrete classes.
