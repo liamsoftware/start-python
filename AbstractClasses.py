@@ -1,5 +1,7 @@
-# Abstract class - template class that cannot be instantiated
-# Abstract method - method defined but is not implemented
+# Abstract class - template class that cannot be instantiated.
+#   Contains one or more abstract methods.
+#   Abstract methods must be overridden and implemented in subclass.
+# Abstract method - method defined but is not implemented.
 
 from abc import ABC, abstractmethod
 
