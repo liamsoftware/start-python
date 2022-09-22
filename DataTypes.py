@@ -32,7 +32,6 @@ def tuple_example():
     print('unchangeable tuple: ' + str(t) + '\n')
 
 
-
 if __name__ == '__main__':
     dictionary_example()
     list_example()
