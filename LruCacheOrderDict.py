@@ -3,18 +3,18 @@ from collections import OrderedDict
 
 class LRUCache:
 
-    def __init__(self, capacity: int):
+    def __init__(self, capacity):
         self.cache = OrderedDict()
         self.capacity = capacity
 
-    def get(self, key: int) -> int:
+    def get(self, key):
         if key not in self.cache:
             return -1
         else:
             self.cache.move_to_end(key)
             return self.cache[key]
 
-    def put(self, key: int, value: int) -> None:
+    def put(self, key, value):
         self.cache[key] = value
         self.cache.move_to_end(key)
         if len(self.cache) > self.capacity:
